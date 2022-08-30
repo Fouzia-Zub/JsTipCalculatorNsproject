@@ -1,37 +1,72 @@
 * {
     font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
-    color: white;
+    color: rgb(245, 246, 247);
+    margin: 0px;
+    padding: 0px;
   }
   
   body {
-    background: #555885;
+    background-image: url(image.jpg/res.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% cover;
+    height:100vh ;
   }
   
-  .wrapper {
-    height: 525px;
+  .wrapper {     
+    height: 360px;
     width: 360px;
-    color: white;
-    background: #272639;
+    color: rgb(48, 47, 47);
     border-radius: 1rem;
     padding: 1.2rem;
     margin: 100px auto;
+    background-color: transparent;
+    border: 1px solid beige; 
+
   }
+  .resName{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .til{
+    font-size: 25px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
   
+  }
+  .head{
+    font-weight: bolder;
+    font-size: 35px; 
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .sol{
+    font-size: 25px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
   #topContainer {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   
   .container {
-    margin-top: 1.4rem;
+    margin-top: 1.6rem;  
   }
   
   .title {
     font-weight: bold;
     margin-bottom: 0.6rem;
+    font-size: 25px;
   }
   
   .inputContainer {
-    background: #353959;
+    background: #c4ad64;
     border-radius: 1.4rem;
     padding: 0 0.8rem;
     display: flex;
@@ -48,7 +83,7 @@
   }
   
   .buttonContainer {
-    background: #989ccf;
+    background: #c4ad64;
     display: grid;
     place-items: center;
     width: 1.6rem;
