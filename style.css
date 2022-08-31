@@ -1,6 +1,6 @@
 * {
     font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
-    color: rgb(245, 246, 247);
+    color: beige;
     margin: 0px;
     padding: 0px;
   }
@@ -20,7 +20,8 @@
     border-radius: 1rem;
     padding: 1.2rem;
     margin: 100px auto;
-    background-color: transparent;
+    background-color: black;
+    opacity : 55%;
     border: 1px solid beige; 
 
   }
@@ -29,12 +30,14 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+    color: beige;
   }
   .til{
     font-size: 25px;
     font-family: cursive;
     display: flex;
     justify-content: center;
+    color: beige;
   
   }
   .head{
@@ -43,6 +46,7 @@
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    
   }
   .sol{
     font-size: 25px;
@@ -50,6 +54,7 @@
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    color: beige;
   }
   #topContainer {
     margin-top: 2rem;
