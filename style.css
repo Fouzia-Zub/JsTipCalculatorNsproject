@@ -1,10 +1,10 @@
-* {
+*{
     font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
     color: beige;
     margin: 0px;
     padding: 0px;
-  }
-  
+}
+@media screen and (max-width:767px) {
   body {
     background-image: url(image.jpg/res.webp);
     background-position: center;
@@ -12,18 +12,22 @@
     background-size: 100% cover;
     height:100vh ;
   }
+  .resName{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    color: beige;
+  }
+}
   
-  .wrapper {     
-    height: 360px;
-    width: 360px;
-    color: rgb(48, 47, 47);
-    border-radius: 1rem;
-    padding: 1.2rem;
-    margin: 100px auto;
-    background-color: black;
-    opacity : 55%;
-    border: 1px solid beige; 
-
+@media screen and (min-width:1024px){
+  body {
+    background-image: url(image.jpg/res.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% cover;
+    height:100vh ;
   }
   .resName{
     font-size: 80px;
@@ -32,6 +36,20 @@
     margin-top: 2rem;
     color: beige;
   }
+}
+  .wrapper {     
+    height: 360px;
+    width: 360px;
+    color: rgb(48, 47, 47);
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+    background-color: black;
+    opacity : 65%;
+    border: 1px solid beige; 
+
+  }
+  
   .til{
     font-size: 25px;
     font-family: cursive;
